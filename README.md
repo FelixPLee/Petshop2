@@ -1,2 +1,4 @@
 # Petshop2
-test, and learn experience 
+
+A web page for a pet shop for a college evaluation
+

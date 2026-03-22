@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PataFeliz – Pet Shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ══════════════ Cabeçalho  ══════════════ -->
+<header>
+  <span class="logo">Pata<span>Feliz</span></span>
+  <nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+    <a href="#servicos" class="cta">Agendar</a>
+  </nav>
+</header>
+
+<!-- ══════════════ HERO ══════════════ -->
+<div class="hero">
+  <h1>Tudo o que seu <em>pet</em> precisa em um só lugar</h1>
+  <p>Produtos de qualidade, serviços especializados e muito amor para os seus melhores amigos.</p>
+</div>
+
+<!-- ══════════════ PRODUTOS ══════════════ -->
+<section id="produtos">
+  <p class="section-label">Loja</p>
+  <h2>Nossos Produtos</h2>
+
+  <!-- Fileira 1 – Alimentação -->
+  <p class="row-title">🍖 Alimentação</p>
+  <div class="product-grid">
+
+    <div class="product-card">
+      <div class="card-img"><img src="./img/racao.webp"></div>
+      <div class="card-body">
+        <span class="card-tag">Alimentação</span>
+        <p class="card-name">Ração Premium Cães</p>
+        <p class="card-desc">Fórmula balanceada com frango, carne e cereais para cães adultos. Rica em proteínas e vitaminas essenciais. Embalagem de 900g.</p>
+        <div class="card-footer">
+          <span class="card-price">R$ 29,90</span>
+          <button class="btn-add">+ Carrinho</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-img"><img src="./img/racaocat.jpg"></div>
+      <div class="card-body">
+        <span class="card-tag">Alimentação</span>
+        <p class="card-name">Ração Gatos Salmão</p>
+        <p class="card-desc">Desenvolvida para gatos adultos com salmão. Auxilia na saúde renal e pelagem brilhante. Embalagem de 1 kg.</p>
+        <div class="card-footer">
+          <span class="card-price">R$ 20,90</span>
+          <button class="btn-add">+ Carrinho</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-img"><img src="./img/racaocoelho.webp"></div>
+      <div class="card-body">
+        <span class="card-tag">Alimentação</span>
+        <p class="card-name">Snack Natural Vegano</p>
+        <p class="card-desc">Petisco 100% natural à base de batata-doce e cenoura. Sem conservantes artificiais. Ideal como recompensa para coelhos.</p>
+        <div class="card-footer">
+          <span class="card-price">R$ 50,90</span>
+          <button class="btn-add">+ Carrinho</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Fileira 2 – Higiene -->
+  <p class="row-title">🛁 Higiene & Cuidados</p>
+  <div class="product-grid">
+
+    <div class="product-card">
+      <div class="card-img"><img src="./img/shampoo.webp"></div>
+      <div class="card-body">
+        <span class="card-tag">Higiene</span>
+        <p class="card-name">Shampoo Hidratante Pet</p>
+        <p class="card-desc">Fórmula exclusiva e extremamente concentrada que permite sua diluição em 10 partes de água 1L.</p>
+        <div class="card-footer">
+          <span class="card-price">R$ 39,90</span>
+          <button class="btn-add">+ Carrinho</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-img"><img src="./img/escova.webp"></div>
+      <div class="card-body">
+        <span class="card-tag">Higiene</span>
+        <p class="card-name">Escova Antiestática</p>
+        <p class="card-desc">Escova PRO Pinos s/ Bolinha Grande - Propetz. Casa Do Tosador você encontra todos os acessórios para Banho e Tosa do seu Pet Shop. </p>
+        <div class="card-footer">
+          <span class="card-price">R$ 49,90</span>
+          <button class="btn-add">+ Carrinho</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-img"><img src="./img/kit.webp"></div>
+      <div class="card-body">
+        <span class="card-tag">Higiene</span>
+        <p class="card-name">Kit Higiene Bucal</p>
+        <p class="card-desc">Conjunto com escova e gel dental para cães. Previne tártaro, mau hálito e doenças gengivais. Kit com escova.</p>
+        <div class="card-footer">
+          <span class="card-price">R$ 32,90</span>
+          <button class="btn-add">+ Carrinho</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Fileira 3 – Acessórios -->
+  <p class="row-title">🎾 Acessórios & Brinquedos</p>
+  <div class="product-grid">
+
+    <div class="product-card">
+      <div class="card-img"><img src="./img/cama.webp"></div>
+      <div class="card-body">
+        <span class="card-tag">Acessórios</span>
+        <p class="card-name">Cama Ortopédica Premium</p>
+        <p class="card-desc">Espuma viscoelástica que alivia pressão nas articulações. Capa removível e lavável. Disponível em 3 tamanhos.</p>
+        <div class="card-footer">
+          <span class="card-price">R$ 189,90</span>
+          <button class="btn-add">+ Carrinho</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-img"><img src="./img/brinquedos.jpg"></div>
+      <div class="card-body">
+        <span class="card-tag">Brinquedos</span>
+        <p class="card-name">Kit Brinquedos Interativos</p>
+        <p class="card-desc">5 brinquedos de borracha atóxica que estimulam o instinto natural e combatem o tédio. Ideais para raças ativas.</p>
+        <div class="card-footer">
+          <span class="card-price">R$ 64,90</span>
+          <button class="btn-add">+ Carrinho</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-img">🏷️</div>
+      <div class="card-body">
+        <span class="card-tag"><img src="./img/coleira.jpg"></span>
+        <p class="card-name">Coleira com GPS</p>
+        <p class="card-desc">Coleira ajustável com rastreador GPS integrado e resistência à água IPX5. Bateria de até 7 dias. App iOS e Android.</p>
+        <div class="card-footer">
+          <span class="card-price">R$ 249,90</span>
+          <button class="btn-add">+ Carrinho</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════ SERVIÇOS ══════════════ -->
+<section id="servicos">
+  <p class="section-label">Serviços</p>
+  <h2>Cuide do seu Pet com Especialistas</h2>
+  <div class="services-grid">
+
+    <div class="service-card">
+      <span class="service-icon">✂️</span>
+      <span class="badge">Mais Pedido</span>
+      <h3>Banho & Tosa Completo</h3>
+      <p>Serviço completo de higienização com banho em shampoo hipoalergênico, escovação, corte de unhas, limpeza de ouvidos e tosa artística ou higiênica conforme a raça e preferência do tutor. Atendimento realizado por profissionais certificados.</p>
+      <span class="service-price">A partir de R$ 80,00</span>
+    </div>
+
+    <div class="service-card">
+      <span class="service-icon">🩺</span>
+      <h3>Consulta Veterinária</h3>
+      <p>Consultas clínicas gerais com médico veterinário registrado no CRMV. Vacinação, vermifugação, check-up preventivo e emissão de atestado de saúde. Agendamento online ou presencial. Urgências atendidas mediante disponibilidade.</p>
+      <span class="service-price">A partir de R$ 120,00</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer id="contato">
+  <div class="footer-grid">
+
+    <div class="footer-brand">
+      <span class="logo">Pata<span>Feliz</span></span>
+      <p>Desde 2010 cuidando dos pets com amor, responsabilidade e os melhores produtos do mercado.</p>
+    </div>
+
+    <div>
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Contato</h4>
+      <ul>
+        <li><a href="#">📍 Rua dos Animais, 666 – RS</a></li>
+        <li><a href="#">📞 (51)  1234-5678</a></li>
+        <li><a href="#">✉️ contato@patafeliz.com.br</a></li>
+        <li><a href="#">🕐 Seg–Sáb: 8h às 18h</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 PataFeliz Pet Shop. Todos os direitos reservados.</span>
+    <span>Feito com 🐾 e muito carinho</span>
+  </div>
+</footer>
+
+</body>
+</html>
